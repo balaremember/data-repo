@@ -1,16 +1,21 @@
 class Corpus:
 
-    def __init__(self) -> None:
-        self.__pathToFile = ''
+    def __init__(self):
         self.__documents = []
 
-    def loadCorpusFromList(self, documents: list, tags: list = []) -> None:
+    def generateCorpus(self, filepath):
         from LabWorks.algoritms.plsaLib.Document import Document
+        import pandas as pd
+
+        data = pd.read_csv(filepath)
+        documents = data["text"].tolist()
+        topics = data["topic"].tolist()
+
         for index in range(len(documents)):
             try:
-                self.__documents.append(Document(documents[index], tags[index]))
+                self.__documents.append(Document(documents[index], topics[index]))
             except IndexError:
                 self.__documents.append(Document(documents[index], ''))
 
-    def getDocuments(self) -> list:
+    def getDocuments(self):
         return self.__documents

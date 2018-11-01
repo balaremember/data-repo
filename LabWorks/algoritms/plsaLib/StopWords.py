@@ -3,15 +3,17 @@ import codecs
 
 class StopWords:
 
-    def __init__(self, pathToFileWithStopWords: str) -> None:
+    def __init__(self):
         self._stopWords = []
-        self.__pathToFileWithStopWords = pathToFileWithStopWords
+        self.__pathToFileWithStopWords = "/Users/ruslantagirov/Desktop/Univer/3course/data-repo/LabWorks/data" \
+                                         "/stopwords.dic"
 
-    def getStopWords(self) -> list:
+    def getStopWords(self):
         return self._stopWords
 
-    def loadStopWordsFromFile(self) -> None:
+    def loadStopWords(self):
         file = codecs.open(self.__pathToFileWithStopWords, 'r', 'utf-8')
-        stopWords = [line.strip() for line in file]
+        stop_words = [line.strip() for line in file]
         file.close()
-        self._stopWords = stopWords
+        self._stopWords = stop_words
+
