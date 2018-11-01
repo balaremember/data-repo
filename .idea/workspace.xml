@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8258f7f3-ab73-4e39-bd68-90d8a730c00a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ruslantagirov.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/ruslantagirov.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/Corpus.py" afterPath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/Corpus.py" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/Document.py" afterPath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/Document.py" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/PLSA.py" afterPath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/PLSA.py" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/Preprocessing.py" afterPath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/Preprocessing.py" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/StopWords.py" afterPath="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/StopWords.py" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/labs/LW3/LW3.py" afterPath="$PROJECT_DIR$/LabWorks/labs/LW3/LW3.py" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/labs/LW3/results/dictionary.dic" afterPath="$PROJECT_DIR$/LabWorks/labs/LW3/results/dic.dic" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/labs/LW3/results/docTopicDistribution.txt" afterPath="$PROJECT_DIR$/LabWorks/labs/LW3/results/doc-topic.txt" />
-      <change beforePath="$PROJECT_DIR$/LabWorks/labs/LW3/results/topicWordDistribution.txt" afterPath="$PROJECT_DIR$/LabWorks/labs/LW3/results/topic-word.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LW3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LW3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabWorks/labs/LW3/LW3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -34,6 +25,16 @@
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,6 +53,7 @@
         <option value="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/StopWords.py" />
         <option value="$PROJECT_DIR$/LabWorks/algoritms/plsaLib/PLSA.py" />
         <option value="$PROJECT_DIR$/LabWorks/labs/LW3/LW3.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -319,6 +321,14 @@
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
